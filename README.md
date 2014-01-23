@@ -8,22 +8,22 @@ Some images of the project are available at: http://mark.moore.dk/#post248
 
 Consists of 2 major parts:
 
-1 - Controller (ARDUINO):
-1.1 - Arduino Leonardo sketch which debounces 3 button inputs and presses a keyboard key after each change (because the buttons are toggle-style guitar-pedal buttons)
-1.2 - An SVG for a tabbed box to be lasercut, fitted to the buttons.
+1. - Controller (ARDUINO):
+  1.1 - Arduino Leonardo sketch which debounces 3 button inputs and presses a keyboard key after each change (because the buttons are toggle-style guitar-pedal buttons)
+  1.2 - An SVG for a tabbed box to be lasercut, fitted to the buttons.
 
 2 - Greenscreen (PROCESSING):
-2.1 - As the name suggests this processing sketch employs a pseoud-greenscreen filter, which basically just scans every pixel in every frame from a webcam and replaced the pixel with the background image if:
+  2.1 - As the name suggests this processing sketch employs a pseoud-greenscreen filter, which basically just scans every pixel in every frame from a webcam and replaced the pixel with the background image if:
       green is more present than red and blue 
-      //(replace if(red*redfactor<green & blue*bluefacotr<green)) 
-      so it is quick and dirty but it works most of the time, if the lighting is right.
-      the user is able to change redfactor and bluefacotr by entering R/r and B/b.
+*replace if(red*redfactor<green & blue*bluefacotr<green)*
+so it is quick and dirty but it works most of the time, if the lighting is right.
+the user is able to change redfactor and bluefacotr by entering R/r and B/b.
       
-      The sketch also scans 3 folders (dragons, trees, rockets) for jpgs and allows the user to cycle through each of these collections with the '1','2' and '3' keys
+The sketch also scans 3 folders (dragons, trees, rockets) for jpgs and allows the user to cycle through each of these collections with the '1','2' and '3' keys
       
-      dragons = 1
-      trees = 2
-      rockets = 3
+-dragons = 1
+-trees = 2
+-rockets = 3
       
       (I DO NOT OWN THE IMAGES IN THE 3 FOLDERS, I JUST BORROWED THEM OFF SOME GOOGLE IMAGE SEACHES)
       
