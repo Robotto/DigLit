@@ -26,13 +26,10 @@ The sketch also scans 3 folders (dragons, trees, rockets) for jpgs and allows th
 -trees = 2
 -rockets = 3
 
-      (I DO NOT OWN THE IMAGES IN THE 3 FOLDERS, I JUST BORROWED THEM OFF SOME GOOGLE IMAGE SEACHES)
-
-      Whichever currently chosen jpg is the one which is used to replace a 'green' webcam pixel in the greenscreen algo.</dd>
+(I DO NOT OWN THE IMAGES IN THE 3 FOLDERS, I JUST BORROWED THEM OFF SOME GOOGLE IMAGE SEACHES)
+Whichever currently chosen jpg is the one which is used to replace a 'green' webcam pixel in the greenscreen algo.</dd>
  </dl>
-      that is all :)
-
-      I hereby disclaim all rights to the code. feel free to use this code and edit, sell, buy, republish-taking-credit or print-out-and-eat it.
-
-      ~Robotto
+that is all :)
+I hereby disclaim all rights to the code. feel free to use this code and edit, sell, buy, republish-taking-credit or print-out-and-eat it.
+~Robotto
 
