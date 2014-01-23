@@ -14,7 +14,7 @@ Consists of 2 major parts:
 
 2 - Greenscreen (PROCESSING):
 2.1 - As the name suggests this processing sketch employs a pseoud-greenscreen filter, which basically just scans every pixel in every frame from a webcam and replaced the pixel with the background image if:
-      green is more present than red and blue (replace if(red*redfactor<green & blue*bluefacotr<green)) so it's quick and dirty but it works most of the time, if the lighting is right.
+      green is more present than red and blue (replace if(red*redfactor<green & blue*bluefacotr<green)) so it is quick and dirty but it works most of the time, if the lighting is right.
       
       The sketch also scans 3 folders (dragons, trees, rockets) for jpgs and allows the user to cycle through each of these collections with the '1','2' and '3' keys
       
@@ -22,11 +22,11 @@ Consists of 2 major parts:
       trees = 2
       rockets = 3
       
-      (I DON'T OWN THE IMAGES IN THE 3 FOLDERS, I JUST BORROWED THEM OFF SOME GOOGLE IMAGE SEACHES)
+      (I DO NOT OWN THE IMAGES IN THE 3 FOLDERS, I JUST BORROWED THEM OFF SOME GOOGLE IMAGE SEACHES)
       
       Whichever currently chosen jpg is the one which is used in the greenscreen algo.
       
-      that's all folks :)
+      that is all :)
       
       I hereby disclaim all rights to the code. feel free to use this code and edit, sell, buy, republish-taking-credit or print-out-and-eat it.
       
