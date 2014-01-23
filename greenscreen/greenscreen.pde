@@ -62,9 +62,9 @@ void setup(){
 //String rocket_path="C:/Users/bob/Desktop/COMBO/rockets/";
 
 //DAMN! there's a sketchPath method! :D
-String dragon_path = sketchPath("dragons");
-String tree_path = sketchPath("trees");
-String rocket_path = sketchPath("rockets");
+String dragon_path = sketchPath("dragons/");
+String tree_path = sketchPath("trees/");
+String rocket_path = sketchPath("rockets/");
 
 File dragon_dir = new File(dragon_path);
 File tree_dir = new File(tree_path);
