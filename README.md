@@ -1,7 +1,10 @@
 DigLit
 ======
 
+
 A Digital Literacy project involving an Arduino Leonardo (makey-makey) based guitar-pedal-style stompbox with 3 buttons. The stompbox chooses the background which replaces the green in a processing sketch that feeds from a USB conected webcam...
+
+Some images of the project are available at: http://mark.moore.dk/#post248
 
 Consists of 2 major parts:
 
