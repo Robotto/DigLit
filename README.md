@@ -15,10 +15,12 @@ Consists of 2 major parts:
 
 <dt>2 - Greenscreen (PROCESSING):</dt>
 <dd>2.1 - As the name suggests this processing sketch employs a pseoud-greenscreen filter, which basically just scans every pixel in every frame from a webcam and replaced the pixel with the background image if:
-      green is more present than red and blue
-'''replace if(red*redfactor<green & blue*bluefacotr<green)*'''
+green is more present than red and blue
+
+    oreplace if(red*redfactor<green & blue*bluefactor<green)
+
 so it is quick and dirty but it works most of the time, if the lighting is right.
-the user is able to change redfactor and bluefacotr by entering R/r and B/b.
+The user is also able to change redfactor and bluefacotr by entering R/r and B/b.
 
 The sketch also scans 3 folders (dragons, trees, rockets) for jpgs and allows the user to cycle through each of these collections with the '1','2' and '3' keys
 
