@@ -11,9 +11,9 @@ typedef struct {
   }
 Input;
 
-Input tree;   //KEY_LEFT_ARROW
-Input rocket; //KEY_UP_ARROW
-Input dragon; //KEY_RIGHT_ARROW
+Input tree;   //input D13 - KEY: 1
+Input rocket; //input D12 - KEY: 2
+Input dragon; //input D15 - KEY: 3
 
 Input *input_map[NUM_INPUTS]={&tree,&rocket,&dragon}; //map of inputs. (array of pointers)
 
